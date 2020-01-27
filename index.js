@@ -16,8 +16,8 @@ app.get("/", (req, res) => res.send("Hello world !"));
 
 //route
 app.use("/adherents", require("./route/adherent.route"));
-app.use("/seance", require("./route/seance.route"));
-app.use("/activite", require("./route/activite.route"));
+app.use("/seances", require("./route/seance.route"));
+app.use("/activites", require("./route/activite.route"));
 
 async function main() {
   try {

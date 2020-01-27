@@ -36,6 +36,11 @@ const adherent = sequelize.define(
     ville: {
       type: Sequelize.STRING,
       allowNull: false
+    },
+
+    Avatar: {
+      type: Sequelize.STRING,
+      allowNull: true
     }
   },
   {}

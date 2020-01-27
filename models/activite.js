@@ -11,8 +11,13 @@ const activite = sequelize.define(
       defaultValue: Sequelize.UUIDV4
     },
     Label: {
-      type: Sequelize.FLOAT,
+      type: Sequelize.STRING,
       allowNull: false
+    },
+
+    Image: {
+      type: Sequelize.STRING,
+      allowNull:true
     }
   },
   {}
